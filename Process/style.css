@@ -1,0 +1,116 @@
+
+p {
+    font-family: Arial;
+    font-size: 2em;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Diphylleia', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 6px 6px 15px rgb(29, 49, 63);
+
+}
+
+body {
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    color: #1d313f;
+}
+
+.demo-border {
+    border-bottom: 2px solid #36696d;
+    border-right: 6px dotted deeppink;
+    border-left: 3px dotted rebeccapurple;
+    border-top: 4px solid orange;
+    border-radius: 34% 66% 30% 70% / 72% 20% 80% 28%;
+    box-shadow: 6px 6px 15px rgb(29, 49, 63)
+}
+
+img:hover {
+    opacity: 0.1;
+}
+
+a:hover {
+    color: rgb(1, 1, 1);
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration-color: chartreuse;
+}
+
+a:focus {
+    background-color: #1d313f;
+    color: white;
+    outline-color: deeppink;
+}
+a {
+    background-color: #36696d;
+    color:aliceblue;
+    position:absolute;
+    top: 6px;
+    left:10px;
+   
+}
+img:hover+h2 {
+    color: deeppink !important;
+}
+
+img+h2 {
+    color: yellowgreen !important;
+}
+
+div.color-yellow > h2 {
+    color: yellowgreen !important;
+}
+
+div#aaa > h2 {
+    color: blue !important;
+}
+.banner {
+    padding: 100px 0;
+    background: url('../images/perroquet.png');
+    background-size: cover;
+    background-position: center;
+    width: 500px 0;
+    height: 600px 0;
+    text-decoration-color:deeppink;
+    margin:auto;
+    }
+p {
+    margin: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 200px;
+}
+.conteneur {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.une {
+    background-color: #C2B0F9;
+    position: absolute;
+    left: 0;
+    top: 90px;
+}
+
+.deux {
+    background-color: #CBFCB9;
+    position: absolute;
+    right: 70px;
+    top: 0;
+}
+
+.trois {
+    background-color: #F2A3BB;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
